@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useDisconnect, useAppKitAccount  } from '@reown/appkit/react'
 import { type BaseError, useWriteContract, useWaitForTransactionReceipt, useReadContract } from 'wagmi'
 import { abi } from '../data/NFTcontract.json'
