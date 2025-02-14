@@ -41,7 +41,6 @@ export function App() {
         <WagmiProvider config={wagmiAdapter.wagmiConfig}>
           <QueryClientProvider client={queryClient}>
             <appkit-button/>
-            <Connected/>
           </QueryClientProvider>
         </WagmiProvider>
       </div>
