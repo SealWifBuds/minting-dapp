@@ -37,12 +37,6 @@ export function App() {
         </h1>
         <p><img src="/logo.png" alt="Logo" style={{ width: '200px', height: '200px' }} /></p>
         <br/>
-        <Text/>
-        <WagmiProvider config={wagmiAdapter.wagmiConfig}>
-          <QueryClientProvider client={queryClient}>
-            <appkit-button/>
-          </QueryClientProvider>
-        </WagmiProvider>
       </div>
     </div>
   )
